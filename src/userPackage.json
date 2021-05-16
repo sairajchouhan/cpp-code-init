@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "compile": "g++ main.cpp && \".\\a\"",
-    "start": "nodemon --watch ./ --exec \" npm run compile \" "
+    "start": "nodemon --watch main.cpp --watch input.txt --exec \" npm run compile \" "
   },
   "keywords": [],
   "author": "",
