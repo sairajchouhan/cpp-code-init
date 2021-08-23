@@ -17,7 +17,7 @@ int main(){
 }
 `
 
-const folderName = 'main'
+const folderName = 'cpp-code-init'
 
 try {
   if (!fs.existsSync(folderName)) {
