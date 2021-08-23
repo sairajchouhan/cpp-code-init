@@ -61,7 +61,7 @@ const boxen = require('boxen')
 const greeting = chalk.white.bold(`
 Follow bellow steps to get started:
 `)
-const cdmain = chalk.cyan(`cd main`)
+const cdmain = chalk.cyan(`cd ${folderName}`)
 const npmInstall = chalk.cyan(`npm install`)
 const npmStart = chalk.cyan(`npm start`)
 const check = chalk.white.bold(`
